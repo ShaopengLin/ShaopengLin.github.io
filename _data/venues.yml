@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+"USENIX Security":
+  color: red
+  url: https://www.usenix.org/conference/usenixsecurity25
+
+"HPCA":
+  color: "#1f548e"
+  url: https://hpca-conf.org/2025/
+
+"DRAMSec":
+  color: "#f3bd56"
+  url: https://dramsec.ethz.ch/

@@ -698,9 +698,9 @@ footer.sticky-bottom {
   margin-top: 2rem;
 
   h1 {
-    color: var(--global-theme-color);
+    color: var(--publication-section-color);
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     margin-top: 1em;
     margin-bottom: 1em;
   }
@@ -1341,4 +1341,12 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+.award_statement {
+  // margin-top: 0.5rem;
+  // margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: red;
+  font-weight: bold;
 }
