@@ -37,6 +37,6 @@ My research interest lies in Hardware/Memory/ML Security, Compiler Optimizations
 
 As a software engineer, I am intrigued by low-level and hardware-related programming and have 2-years of experience experienced in C/C++ and Python programming. I am experienced in Compiler Engineering and Qt GUI development. My last internship is at [Huawei Canada](https://www.huawei.com/ca/) and I also participates in Open Source Development via [Google Summer of Code](https://summerofcode.withgoogle.com/). I do Android, Graphics Computing, and Game development on the side. 
 
-Before I started my PhD at University of Toronto, I recieved my B.S. in Computer Science at University of Toronto's satellite campus in Scarborough, on 2024.
+Before I started my PhD at University of Toronto, I recieved my B.S. in Computer Science at University of Toronto's satellite campus in Scarborough, on 2024. I am a long time Teaching Assistant at UTSC for 3+ years.
 
 During my down time, I am a competent Badminton 🏸 Player :). I actively play the [Monster Hunter Series 🐉⚔️](https://en.wikipedia.org/wiki/Monster_Hunter), [Hollow Knight (Silk Song Hype) 💀](https://en.wikipedia.org/wiki/Hollow_Knight), [Balatro 🃏](https://en.wikipedia.org/wiki/Balatro), and [Arknights 🛥️](https://en.wikipedia.org/wiki/Arknights). I am also happily married :).
