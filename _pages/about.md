@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in the [Department of Computer Science (DCS)]([https://web.cs.toronto.edu/) at the [University of Toronto (UofT)](https://www.utoronto.ca/), working with [Prof. Gururaj Saileshwar](https://gururaj-s.github.io/) in the Securing Systems via Trustworthy Hardware (SITH) Lab.
+I am a Ph.D. student in the [Department of Computer Science (DCS)](https://web.cs.toronto.edu/) at the [University of Toronto (UofT)](https://www.utoronto.ca/), working with [Prof. Gururaj Saileshwar](https://gururaj-s.github.io/) in the Securing Systems via Trustworthy Hardware (SITH) Lab.
 
 <hr style="border:2px solid gray; margin-left: 0px; width: 67%;">
 I am seeking internship opportunities in Systems & ML Security, HPC, or Compilers for Summer 2026. Please feel free to reach out if you’re interested.
