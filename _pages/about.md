@@ -6,8 +6,8 @@ subtitle: <a href='https://sysweb.cs.toronto.edu/index.php'>Computer Systems and
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image: prof_pic_real_left.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size:12px">Office: <a href='https://www.cs.toronto.edu/~pocsys/floorplans.html'>BA5214</a> University of Toronto</p>
     <p style="font-size:12px">Email: shaopenglin@cs.toronto.edu</p>
