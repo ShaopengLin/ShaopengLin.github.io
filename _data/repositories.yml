@@ -5,5 +5,6 @@ repo_description_lines_max: 4
 
 github_repos:
   - kiwix/kiwix-desktop
-  - openzim/libzim
   - sith-lab/gpuhammer
+  - openzim/libzim
+  - sith-lab/qprac
