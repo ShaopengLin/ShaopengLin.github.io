@@ -188,6 +188,12 @@
       </div>
     {% endif %}
 
+    {% if entry.media_links %}
+      <div class="media_links">
+       {{  entry.media_links }}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}

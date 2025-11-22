@@ -15,9 +15,9 @@ nav_order: 2
 
 <div class="publications">
 
-<!-- <h1>preprints</h1>
+<h1>Preprints</h1>
 
-{% bibliography -f preprints %} -->
+{% bibliography -f preprints %}
 
 <h1>Conferences</h1>
 

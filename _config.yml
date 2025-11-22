@@ -308,6 +308,8 @@ filtered_bibtex_keywords:
     arxiv,
     award,
     award_name,
+    award_statement,
+    media_links,
     bibtex_show,
     blog,
     code,

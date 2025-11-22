@@ -5,16 +5,26 @@
   author={Lin, Chris S. and Joyce Qu and Saileshwar, Gururaj},
   booktitle={34th USENIX Security Symposium (USENIX Security 25)}, 
   title={GPUHammer: Rowhammer Attacks on GPU Memories are Practical}, 
-  year={2025},
-  volume={},
-  pages={5719--5738},
   abbr={USENIX Security},
   website={https://www.gpuhammer.com/},
   arxiv={2507.08166},
   code={https://github.com/sith-lab/gpuhammer},
   google_scholar_id={2osOgNQ5qMEC},
   bibtex_show={true},
-  selected={true}}
+  selected={true},
+  award_statement={CSAW'25 (North America) Best Paper Award 🏅},
+
+  year = {2025},
+  isbn = {978-1-939133-52-6},
+  publisher = {USENIX Association},
+  address = {USA},
+  abstract = {Rowhammer is a read disturbance vulnerability in modern DRAM that causes bit-flips, compromising security and reliability. While extensively studied on Intel and AMD CPUs with DDR and LPDDR memories, its impact on GPUs using GDDR memories, critical for emerging machine learning applications, remains unexplored. Rowhammer attacks on GPUs face unique challenges: (1) proprietary mapping of physical memory to GDDR banks and rows, (2) high memory latency and faster refresh rates that hinder effective hammering, and (3) proprietary mitigations in GDDR memories, difficult to reverse-engineer without FPGA-based test platforms.We introduce GPUHammer, the first Rowhammer attack on NVIDIA GPUs with GDDR6 DRAM. GPUHammer proposes novel techniques to reverse-engineer GDDR DRAM row mappings, and employs GPU-specific memory access optimizations to amplify hammering intensity and bypass mitigations. Thus, we demonstrate the first successful Rowhammer attack on a discrete GPU, injecting up to 8 bit-flips across 4 DRAM banks on an NVIDIA A6000 with GDDR6 memory. We also show how an attacker can use these to tamper with ML models, causing significant accuracy drops (up to 80\%).},
+  booktitle = {Proceedings of the 34th USENIX Conference on Security Symposium},
+  articleno = {294},
+  numpages = {20},
+  location = {Seattle, WA, USA},
+  series = {SEC '25}
+}
 
 @INPROCEEDINGS{QRPAC,
   author={Woo, Jeonghyun and Lin, Shaopeng Chris and Nair, Prashant J. and Jaleel, Aamer and Saileshwar, Gururaj},
@@ -32,5 +42,6 @@
   arxiv={2501.18861},
   code={https://github.com/sith-lab/qprac},
   google_scholar_id={u5HHmVD_uO8C},
-  selected={true}}
+  selected={true}
+  }
 

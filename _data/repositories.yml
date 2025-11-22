@@ -1,8 +1,9 @@
 github_users:
   - ShaopengLin
 
-repo_description_lines_max: 2
+repo_description_lines_max: 4
 
 github_repos:
   - kiwix/kiwix-desktop
   - openzim/libzim
+  - sith-lab/gpuhammer
