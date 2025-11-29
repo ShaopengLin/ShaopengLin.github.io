@@ -17,37 +17,42 @@
 "jaleel":
   - firstname: ["Aamer"]
     url: https://www.jaleels.org/ajaleel/
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"coalson":
+  - firstname: ["Zach", "Zachary"]
+    url: https://www.zachcoalson.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"sun":
+  - firstname: ["Yu"]
+    url: https://pipijing13.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"yang":
+  - firstname: ["Lishan"]
+    url: https://lishanyang.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"fang":
+  - firstname: ["Bo"]
+    url: https://flyree.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"hong":
+  - firstname: ["Sanghyun"]
+    url: https://sanghyun-hong.com/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"yan":
+  - firstname: ["Yuqin"]
+    url: https://www.linkedin.com/in/yuqin-yan/?originalSubdomain=ca
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"zhu":
+  - firstname: ["Joseph"]
+    url: https://www.linkedin.com/in/~jz/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"ding":
+  - firstname: ["Guozhen"]
+    url: https://www.guozhen.dev/
+
+"lie":
+  - firstname: ["David"]
+    url: https://security.csl.toronto.edu/
+
+
+
