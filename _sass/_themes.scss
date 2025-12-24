@@ -65,6 +65,17 @@
     display: none;
   }
 
+   ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* Thumb */
+  ::-webkit-scrollbar-thumb {
+      // background-color: ;
+      border-radius: 10px;
+      border: 3px solid var(--global-theme-color); /* optional */
+  }
+
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
