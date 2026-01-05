@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2025-12-26'
+  last_updated: '2026-01-05'
 papers:
   cle1nMgAAAAJ:2osOgNQ5qMEC:
-    citations: 9
+    citations: 10
     title: '{GPUHammer}: Rowhammer Attacks on {GPU} Memories are Practical'
     year: '2025'
   cle1nMgAAAAJ:u-x6o8ySG0sC:
