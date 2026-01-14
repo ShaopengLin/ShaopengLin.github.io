@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-05'
+  last_updated: '2026-01-14'
 papers:
   cle1nMgAAAAJ:2osOgNQ5qMEC:
-    citations: 10
+    citations: 12
     title: '{GPUHammer}: Rowhammer Attacks on {GPU} Memories are Practical'
     year: '2025'
   cle1nMgAAAAJ:u-x6o8ySG0sC:
@@ -10,6 +10,6 @@ papers:
     title: 'CnC-PRAC: Coalesce, not Cache, Per Row Activation Counts for an Efficient in-DRAM Rowhammer Mitigation'
     year: '2025'
   cle1nMgAAAAJ:u5HHmVD_uO8C:
-    citations: 20
+    citations: 21
     title: 'Qprac: Towards secure and practical prac-based rowhammer mitigation using priority queues'
     year: '2025'
