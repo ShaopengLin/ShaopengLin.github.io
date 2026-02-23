@@ -1,10 +1,14 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-02-23'
 papers:
   cle1nMgAAAAJ:2osOgNQ5qMEC:
     citations: 16
     title: '{GPUHammer}: Rowhammer attacks on {GPU} memories are practical'
     year: '2025'
+  cle1nMgAAAAJ:Tyk-4Ss8FVUC:
+    citations: 0
+    title: 'PrisonBreak: Jailbreaking Large Language Models with at Most Twenty-Five Targeted Bit-flips'
+    year: '2024'
   cle1nMgAAAAJ:u-x6o8ySG0sC:
     citations: 3
     title: 'CnC-PRAC: Coalesce, not Cache, Per Row Activation Counts for an Efficient in-DRAM Rowhammer Mitigation'
