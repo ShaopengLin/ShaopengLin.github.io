@@ -6,6 +6,10 @@
   color: "#1f548e"
   url: https://hpca-conf.org/2025/
 
+"S&P":
+  color: "#b342f5"
+  url: https://hpca-conf.org/2025/
+
 "DRAMSec":
   color: "#f3bd56"
   url: https://dramsec.ethz.ch/
