@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-27'
+  last_updated: '2026-04-06'
 papers:
   cle1nMgAAAAJ:2osOgNQ5qMEC:
     citations: 20
@@ -14,6 +14,6 @@ papers:
     title: 'CnC-PRAC: Coalesce, not Cache, Per Row Activation Counts for an Efficient in-DRAM Rowhammer Mitigation'
     year: '2025'
   cle1nMgAAAAJ:u5HHmVD_uO8C:
-    citations: 26
+    citations: 27
     title: 'Qprac: Towards secure and practical prac-based rowhammer mitigation using priority queues'
     year: '2025'
