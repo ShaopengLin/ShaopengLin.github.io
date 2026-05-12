@@ -184,6 +184,26 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {% if entry.award_statement %}
+      {% assign award_statement = entry.award_statement | split: ", " %}
+      <div class="award_statement">
+        {% for award in award_statement %}
+          <div>
+            <strong style="color:red;">
+              {{ award }} 🥇
+            </strong>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if entry.artifact %}
+      <div class="artifact">
+        <strong style="color:green;">
+          Artifact Evaluated: {{ entry.artifact }}
+        </strong>
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
