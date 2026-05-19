@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**<a style="color: var(--global-theme-color);" href="https://gpubreach.ca/">GPUBreach</a>** won the **🏅Distinguished Paper Award** at **<a style="color: var(--global-theme-color);" href="https://gpubreach.ca/">S&P 2026</a>**!
+**<a style="color: var(--global-theme-color);" href="https://gpubreach.ca/">GPUBreach</a>** won the **🏅Distinguished Paper Award** at **<a style="color: var(--global-theme-color);" href="https://sp2026.ieee-security.org/">S&P 2026</a>**!
