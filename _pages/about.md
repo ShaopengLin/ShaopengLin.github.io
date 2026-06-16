@@ -37,6 +37,6 @@ My research interests span **hardware, memory, and machine learning (ML) securit
 
 As a software engineer, I have a strong interest in low-level and hardware-centric programming, with over two years of experience in **C/C++** and **Python**. I also have experience in **compiler** engineering and **Qt**-based GUI development. I have interned in **C++** related roles 3 times and participated in Google Summer of Code (**GSOC**) through open-source contributions. In my spare time, I enjoy working on Android apps, graphics computing, and game development.
 
-Before starting my Ph.D. at the University of Toronto, I earned a B.S. in Computer Science from the University of Toronto Scarborough in 2024. I have also served as a Teaching Assistant at UTSC for over three years.
+Before starting my Ph.D. at the University of Toronto, I earned a B.S. in Computer Science from the University of Toronto Scarborough in 2024. I have also served (still on-going) as a Teaching Assistant at UTSC.
 
 During my down time, I am a competent Badminton 🏸 Player :). I actively play the [Monster Hunter Series 🐉⚔️](https://en.wikipedia.org/wiki/Monster_Hunter), [Hollow Knight (Silk Song Hype) 💀](https://en.wikipedia.org/wiki/Hollow_Knight), [Balatro 🃏](https://en.wikipedia.org/wiki/Balatro), and [Arknights 🛥️](https://en.wikipedia.org/wiki/Arknights). I am also happily married ❤️💍❤️ with Linghe (Flora) Zhao.
