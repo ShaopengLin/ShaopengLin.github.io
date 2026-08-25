@@ -2,6 +2,10 @@
   color: red
   url: https://www.usenix.org/conference/usenixsecurity25
 
+"CCS":
+  color: "#2e248e"
+  url: https://www.sigsac.org/ccs/CCS2026/
+
 "HPCA":
   color: "#1f548e"
   url: https://hpca-conf.org/2025/
