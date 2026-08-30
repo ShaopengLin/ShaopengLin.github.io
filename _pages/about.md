@@ -30,7 +30,7 @@ latest_posts:
 I am a Ph.D. student in the [Department of Computer Science (DCS)](https://web.cs.toronto.edu/) at the [University of Toronto (UofT)](https://www.utoronto.ca/), working with [Prof. Gururaj Saileshwar](https://gururaj-s.github.io/) in the Securing Systems via Trustworthy Hardware (SITH) Lab.
 
 <hr style="border:2px solid gray; margin-left: 0px; width: 67%;">
-I am seeking internship opportunities in Systems & ML Security, HPC, or Compilers for Summer 2026. Please feel free to reach out if you’re interested.
+I am seeking internship opportunities in Systems & ML Security, HPC, or Compilers for Summer 2027. Please feel free to reach out if you’re interested.
 <hr style="border:2px solid gray; margin-left: 0px; width: 67%;">
 
 My research interests span **hardware, memory, and machine learning (ML) security, compiler optimizations, and ML systems and accelerators**. Currently, I focus on Rowhammer attacks and defenses, as well as securing ML systems against emerging threat vectors. My earlier work demonstrated the feasibility of **Rowhammer attacks on NVIDIA GPUs**, which can be exploited to degrade deep learning models. I have also contributed to enhancing Per-Row Activation Counting (PRAC), a state-of-the-art Rowhammer defense. More recently, I’ve been exploring compiler and hardware techniques to attack or protect large language model (LLM) training and inference pipelines, as well as parallel computing systems.
