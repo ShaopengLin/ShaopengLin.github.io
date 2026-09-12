@@ -1,0 +1,40 @@
+---
+layout: page
+---
+{% assign coverage = site.data.news_coverage[page.coverage_key] %}
+<div class="news-coverage">
+  <p class="coverage-navigation">
+    <a href="{{ '/publications/' | relative_url }}">All publications</a>
+    <span aria-hidden="true"> · </span>
+    <a href="{{ coverage.website }}" rel="external noopener">{{ coverage.name }} project website</a>
+  </p>
+  <p class="coverage-meta">{{ coverage.articles.size }} articles · Updated {{ site.data.news_coverage.updated | date: '%B %-d, %Y' }}</p>
+  {% assign languages = 'en,zh' | split: ',' %}
+  {% for language in languages %}
+    {% assign articles = coverage.articles | where: 'language', language | sort: 'date' | reverse %}
+    <section aria-labelledby="coverage-{{ language }}">
+      <h2 id="coverage-{{ language }}">{% if language == 'en' %}English{% else %}<span lang="zh">中文报道</span> <span class="coverage-meta">/ Chinese</span>{% endif %}</h2>
+      <ul class="coverage-list">
+        {% for article in articles %}
+          {% assign publisher = site.data.news_coverage.publishers[article.publisher] %}
+          <li>
+            <a class="coverage-card" href="{{ article.url | escape }}" rel="external noopener">
+              <span class="coverage-logo" aria-hidden="true">
+                {% if publisher.logo %}
+                  <img src="{{ publisher.logo | relative_url }}" alt="" width="32" height="32" loading="lazy">
+                {% else %}
+                  {{ publisher.monogram }}
+                {% endif %}
+              </span>
+              <span class="coverage-copy">
+                <span class="coverage-meta">{{ publisher.name | escape }} · <time datetime="{{ article.date }}">{{ article.date | date: '%b %-d, %Y' }}</time></span>
+                <span class="coverage-title" lang="{{ article.lang | default: language }}">{{ article.title | escape }}</span>
+                {% if article.note %}<span class="coverage-meta">{{ article.note | escape }}</span>{% endif %}
+              </span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>

@@ -273,6 +273,9 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.news_coverage %}
+        <a href="{{ entry.news_coverage | relative_url }}" class="btn btn-sm z-depth-0" role="button">News Coverage</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

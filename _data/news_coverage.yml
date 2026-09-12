@@ -1,0 +1,139 @@
+# Curated article links, verified against publisher pages/search results.
+# Add articles under the paper key; language is en or zh, lang optionally specifies script.
+# Publisher icons are small identification marks; ownership remains with the publishers.
+updated: '2026-09-12'
+publishers:
+  ars:
+    name: Ars Technica
+    monogram: ars
+  thn:
+    name: The Hacker News
+    monogram: THN
+    logo: /assets/img/news-publishers/thn.ico
+    logo_source: https://thehackernews.com/downloads/favicon.ico
+  techspot:
+    name: TechSpot
+    monogram: TS
+  ithome_cn:
+    name: IT之家
+    monogram: IT
+    logo: /assets/img/news-publishers/ithome-cn.ico
+    logo_source: https://www.ithome.com/favicon.ico
+  bleepingcomputer:
+    name: BleepingComputer
+    monogram: BC
+  securityweek:
+    name: SecurityWeek
+    monogram: SW
+  ithome_tw:
+    name: iThome
+    monogram: iT
+    logo: /assets/img/news-publishers/ithome-tw.ico
+    logo_source: https://www.ithome.com.tw/favicon.ico
+  kaspersky:
+    name: Kaspersky
+    monogram: K
+  tnw:
+    name: The Next Web
+    monogram: TNW
+  cnsec:
+    name: CN-SEC 中文网
+    monogram: CN
+
+gpuhammer:
+  name: GPUHammer
+  website: https://www.gpuhammer.com/
+  articles:
+    - publisher: ars
+      language: en
+      date: '2025-07-14'
+      title: 'Nvidia chips become the first GPUs to fall to Rowhammer bit-flip attacks'
+      url: https://arstechnica.com/security/2025/07/nvidia-chips-become-the-first-gpus-to-fall-to-rowhammer-bit-flip-attacks/
+    - publisher: thn
+      language: en
+      date: '2025-07-12'
+      title: 'GPUHammer: New RowHammer Attack Variant Degrades AI Models on NVIDIA GPUs'
+      url: https://thehackernews.com/2025/07/gpuhammer-new-rowhammer-attack-variant.html
+    - publisher: techspot
+      language: en
+      date: '2025-07-17'
+      title: 'Nvidia workstation GPUs fall to first-ever GDDR6 Rowhammer bit-flip attack'
+      url: https://www.techspot.com/news/108698-nvidia-workstation-gpus-fall-first-ever-gddr6-rowhammer.html
+    - publisher: ithome_cn
+      language: zh
+      lang: zh-Hans
+      date: '2025-07-12'
+      title: '英伟达推荐 GDDR6 显存 GPU 激活 ECC，防范 Rowhammer 攻击'
+      url: https://www.ithome.com/0/867/670.htm
+    - publisher: ithome_cn
+      language: zh
+      lang: zh-Hans
+      date: '2025-07-20'
+      title: '英伟达 GPU 被曝严重漏洞，致模型准确率暴跌 99.9%'
+      note: '量子位 · Republished by IT之家'
+      url: https://www.ithome.com/0/869/414.htm
+
+gpubreach:
+  name: GPUBreach
+  website: https://www.gpubreach.ca/
+  articles:
+    - publisher: bleepingcomputer
+      language: en
+      date: '2026-04-06'
+      title: 'New GPUBreach attack enables system takeover via GPU rowhammer'
+      url: https://www.bleepingcomputer.com/news/security/new-gpubreach-attack-enables-system-takeover-via-gpu-rowhammer/
+    - publisher: securityweek
+      language: en
+      date: '2026-04-07'
+      title: 'GPUBreach: Root Shell Access Achieved via GPU Rowhammer Attack'
+      url: https://www.securityweek.com/gpubreach-root-shell-access-achieved-via-gpu-rowhammer-attack/
+    - publisher: thn
+      language: en
+      date: '2026-04-07'
+      title: 'New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips'
+      url: https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html
+    - publisher: ithome_cn
+      language: zh
+      lang: zh-Hans
+      date: '2026-04-08'
+      title: '威胁英伟达 GDDR6 显卡：“锤击”变种 GPUBreach 曝光，可绕过防护获取系统最高权限'
+      url: https://www.ithome.com/0/936/848.htm
+    - publisher: ithome_tw
+      language: zh
+      lang: zh-Hant
+      date: '2026-04-14'
+      title: 'GPU記憶體成為攻擊入口，研究人員指出利用GPUBreach攻擊手法可接管系統'
+      url: https://www.ithome.com.tw/news/175051
+
+gputhor:
+  name: GPUThor
+  website: https://www.gputhor.com/
+  articles:
+    - publisher: thn
+      language: en
+      date: '2026-08-27'
+      title: 'New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access'
+      url: https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html
+    - publisher: tnw
+      language: en
+      date: '2026-09-07'
+      title: 'GPUThor breaks the error correction Nvidia recommended against Rowhammer'
+      url: https://thenextweb.com/news/gputhor-rowhammer-nvidia-ecc-root-shell
+    - publisher: kaspersky
+      language: en
+      date: '2026-09-08'
+      title: 'GPUThor: another server attack attempt through the GPU'
+      url: https://www.kaspersky.com/blog/gputhor-rowhammer-class-attack/56362/
+    - publisher: ithome_tw
+      language: zh
+      lang: zh-Hant
+      date: '2026-09-07'
+      title: '多倫多大學研究揭露新型攻擊手法GPUThor，可突破Nvidia GPU的ECC防護'
+      url: https://www.ithome.com.tw/news/178735
+    - publisher: cnsec
+      language: zh
+      lang: zh-Hans
+      date: '2026-09-04'
+      title: "比 GPUHammer 还猛：CCS'26 GPUThor 锤爆英伟达 GPU 的 ECC"
+      note: 'Community technical coverage'
+      url: https://cn-sec.com/archives/5419361.html

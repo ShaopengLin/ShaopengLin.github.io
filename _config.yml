@@ -322,6 +322,7 @@ filtered_bibtex_keywords:
     video,
     website,
     award_statement,
+    news_coverage,
     artifact,
   ]
 
