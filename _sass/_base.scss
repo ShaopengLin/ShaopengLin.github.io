@@ -592,6 +592,13 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  .chinese-name {
+    display: inline-block;
+    font-size: 0.85em;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }

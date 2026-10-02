@@ -7,6 +7,9 @@ layout: default
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
+        {% if site.chinese_name and site.chinese_name != empty %}
+          <span class="chinese-name" lang="zh-Hans">{{ site.chinese_name | escape }}</span>
+        {% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}
