@@ -1,3 +1,2 @@
 nbconvert
-pyyaml
-scholarly
+-r bin/requirements-citations.txt
